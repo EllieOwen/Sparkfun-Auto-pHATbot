@@ -1,7 +1,7 @@
 /*
  * This sketch is an expample of recieving commands from the DUMBORC-X6 2.4Ghz 6 Channel RC Transmitter.
- * 
- * 
+ * Using the pulseIn() function isn't the best way to do this but it works for demonstraiting the connection and reading the pulse widths.
+ * Using interups is the more efficient use of the cpu in real life.
  */
 #include <Wire.h>
 //set up on a Teensy 3.5 
